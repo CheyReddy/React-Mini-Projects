@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+}
+
+.transformer {
+    position: relative;
+    top: 50px;
+    padding: 5% 10%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.heading {
+    color: brown;
+}
+
+.full {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textArea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    flex: 0 0 auto;
+}
+
+.myButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background: brown;
+    color: white;
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.back {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+    left: 25px;
+    top: 60px;
+}

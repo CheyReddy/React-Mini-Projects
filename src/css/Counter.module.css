@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+  background-color: hsl(0, 5%, 35%);
+  min-height: 100vh;
+}
+
+.counter{
+  position: relative;
+  top: 60px;
+}
+
+.heading {
+  color: blanchedalmond;
+  margin: 0;
+}
+
+.button {
+  padding: 10px;
+  margin: 15px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  
+}
+
+div{
+  font-weight: bold;
+  color: lightgray
+}
+input{
+    width: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.back{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+    left: 25px;
+    top: 60px;
+}

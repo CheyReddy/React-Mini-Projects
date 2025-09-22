@@ -1,0 +1,48 @@
+.container{
+    text-align: center;
+}
+.randNumber{
+    position: relative;
+    top: 60px;
+}
+.heading, .para{
+    color: tomato;
+    font-weight: 600;
+    margin: 0;
+    font-size: 18px;
+
+}
+input{
+    border: 1px solid black;
+    width: 150px;
+    margin-bottom: 15px;
+}
+.subHead{
+    color: black;
+    position: relative;
+    font-weight: 600;
+}
+.myButton{
+    background-color: rgb(44, 80, 187);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.myButton:hover{
+    border:  2px solid red;
+    font-size: 15px;
+}
+
+.back{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}

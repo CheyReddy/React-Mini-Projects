@@ -1,0 +1,38 @@
+.container{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-start;      
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.wrapper{
+    background: url("/images/Linkedin Cover pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 8px 12px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 6px;
+  color: tomato;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  font-size: 25px;
+}
+
+.link:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
