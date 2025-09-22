@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Container from "./components/Container";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Counter from "./components/Counter";
 import ImageGallery from "./components/ImageGallery";
 import Accordion from "./components/Accordion";
@@ -13,7 +13,7 @@ import StringTransformers from "./components/StringTransformers";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<Container />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/telephone-formatter" element={<TelephoneFormatter />} />
           <Route path="/string-transformers" element={<StringTransformers />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
