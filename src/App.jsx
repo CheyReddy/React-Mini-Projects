@@ -13,8 +13,8 @@ import StringTransformers from "./components/StringTransformers";
 function App() {
   return (
     <>
-      <NavBar />
       <HashRouter>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Container />} />
           <Route path="/counter" element={<Counter />} />
