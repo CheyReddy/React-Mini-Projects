@@ -1,12 +1,75 @@
-# React + Vite
+# 🎯 React Mini Challenges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of small React components and mini projects built using **React + Vite + React Router**.  
+Each challenge is a standalone component that demonstrates core React concepts like state, props, event handling, conditional rendering, and routing with navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Built with **React + Vite** (fast bundling & hot reload)
+- 🎨 Styled using **CSS Modules**
+- 🔀 Navigation between challenges using **React Router**
+- 🧩 Includes multiple mini challenges:
+  - ✅ Counter  
+  - 🖼️ Image Gallery  
+  - 📂 Accordion  
+  - 🔢 Guess the Number  
+  - 📞 Telephone Formatter  
+  - ➕ More coming soon...
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+react-mini-challenges/
+│── src/
+│ ├── component/ # All challenge components
+│ │ ├── Counter.jsx
+│ │ ├── Accordion.jsx
+│ │ ├── ImageGallery.jsx
+│ │ ├── RandomNumberGenerator.jsx
+│ │ ├── TelephoneFormatter.jsx
+│ │ └── ...
+│ ├── css/ # CSS modules for styling
+│ ├── App.jsx # Main app with router setup
+│ ├── main.jsx # React entry point
+│ └── routes/ # (optional) If you separated route configs
+│
+│── public/ # Static assets
+│── package.json
+│── vite.config.js
+└── README.md
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name> 
+Install dependencies
+  bash
+  npm install
+
+Start development server
+  bash
+  npm run dev
+
+Open in browser → http://localhost:3000
+
+🎯 Learning Goals
+These mini challenges helped me practice:
+
+> React state & props
+> Conditional rendering
+> Event handling
+> Controlled vs uncontrolled inputs
+> React Router navigation
+> Flexbox & Grid with CSS Modules
+> Component reusability
+
+📄 License
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+Venkata Chaithanya Reddy V
